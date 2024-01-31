@@ -1,0 +1,50 @@
+aside {
+  border-right: 1.5px solid #ECECEC;
+  background: #FFF;
+  padding: 32px 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 36px;
+}
+
+.groupText {
+  color: #818181;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.tabs, .active {
+  border-radius: 4px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 4px 18px;
+  align-items: center;
+  gap: 10px;
+}
+
+.active {
+  border-radius: 4px;
+  background: #E0ECD0;
+  color: #1F3601;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 4px 18px;
+  align-items: center;
+  gap: 10px;
+}
+
+.gap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

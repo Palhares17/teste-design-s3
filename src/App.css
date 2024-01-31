@@ -1,0 +1,34 @@
+section {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  background: #F9F9F9;
+  height: calc(100vh - 64px);
+  width: 100%;
+  gap: 24px;
+}
+
+main {
+  margin: 42px 24px;
+  background: #F9F9F9;
+}
+
+.bradcrambs {
+  color: #818181;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h1 {
+  color: #313131;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  z-index: 100;
+  position: relative;
+}
+
+.containerGrid {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}

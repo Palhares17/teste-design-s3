@@ -1,0 +1,21 @@
+header {
+  padding: 0 24px;
+  background: #313131;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.navegation {
+  display: flex;
+  gap: 24px;
+  color: white;
+  margin-left: 48px;
+
+}
+
+.list {
+  font-weight: 600;
+  line-height: 120%;
+  font-size: 1rem;
+}
